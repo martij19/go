@@ -1,0 +1,24 @@
+{
+  "bootstrap-sha": "79549a035a1da54de5cef5037ab3d6ce1fa1db15",
+  "release-as": "0.2.0",
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": true,
+  "draft": false,
+  "release-type": "go",
+  "prerelease": false,
+  "versioning": "default",
+  "packages": {
+    "pkg/one": {
+      "changelog-path": "CHANGELOG.md",
+      "package-name": "one"
+    },
+    "pkg/two": {
+      "changelog-path": "CHANGELOG.md",
+      "package-name": "two"
+    },
+    "pkg/three": {
+      "changelog-path": "CHANGELOG.md",
+      "package-name": "three"
+    }
+  }
+}

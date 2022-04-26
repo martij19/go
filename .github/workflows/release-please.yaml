@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      - main
+name: release-please
+jobs:
+  release-please:
+    runs-on: [ ubuntu-latest ]
+    steps:
+      - uses: martij19/release-please-action@v3.2.1
+        with:
+          command: manifest
+          default-branch: main
+          token: ${{secrets.GITHUB_TOKEN}}
