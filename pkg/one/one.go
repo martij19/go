@@ -2,7 +2,7 @@ package one
 
 import "fmt"
 
-// Test
+// Test One
 func Test() {
 	fmt.Println("one")
 }
