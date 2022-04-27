@@ -5,6 +5,7 @@
   "release-type": "go",
   "prerelease": false,
   "versioning": "default",
+  "tag-seperator": "/",
   "packages": {
     "pkg/one": {
       "changelog-path": "CHANGELOG.md",
