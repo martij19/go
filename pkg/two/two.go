@@ -6,8 +6,3 @@ import "fmt"
 func Test() {
 	fmt.Println("two")
 }
-
-// Add comment.
-func Add(x int, y int) int {
-	return x + y
-}
