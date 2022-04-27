@@ -12,3 +12,4 @@ jobs:
           command: manifest
           default-branch: main
           token: ${{secrets.GITHUB_TOKEN}}
+          monorepo-tags: true
