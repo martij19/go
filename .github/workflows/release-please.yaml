@@ -13,7 +13,6 @@ jobs:
           command: manifest
           default-branch: main
           token: ${{secrets.GITHUB_TOKEN}}
-          monorepo-tags: true
       - name: Show output from Release Please
         if: ${{ steps.release.outputs.release_created }}
         run: |
