@@ -7,13 +7,22 @@ jobs:
   release-please:
     runs-on: [ ubuntu-latest ]
     steps:
-      - id: release-please
+      - id: release
         uses: martij19/release-please-action@v3.2.1
         with:
           command: manifest
           default-branch: main
           token: ${{secrets.GITHUB_TOKEN}}
           monorepo-tags: true
-      - run: |
-          echo ${{ steps.release-please.outputs.release_created }}
-          echo ${{ steps.release-please.outputs.tag_name }}
+      - name: Show output from Release Please
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          echo "release_created: ${{ steps.release.outputs.release_created }}"
+          echo "upload_url: ${{ steps.release.outputs.upload_url }}"
+          echo "html_url: ${{ steps.release.outputs.html_url }}"
+          echo "tag_name: ${{ steps.release.outputs.tag_name }}"
+          echo "major: ${{ steps.release.outputs.major }}"
+          echo "minor: ${{ steps.release.outputs.minor }}"
+          echo "patch: ${{ steps.release.outputs.patch }}"
+          echo "sha: ${{ steps.release.outputs.sha }}"
+          echo "pr: ${{ steps.release.outputs.pr }}"
