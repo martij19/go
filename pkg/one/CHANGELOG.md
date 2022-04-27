@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.5](https://github.com/martij19/go/compare/one-v0.2.4...one/v0.2.5) (2022-04-27)
+
+
+### Bug Fixes
+
+* add comment for one ([3c72dbf](https://github.com/martij19/go/commit/3c72dbf453ed90f266f6e734dae8c00f4438f370))
+
 ### [0.2.4](https://github.com/martij19/go/compare/one/v0.2.3...one-v0.2.4) (2022-04-27)
 
 
