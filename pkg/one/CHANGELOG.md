@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.3](https://github.com/martij19/go/compare/one-v0.2.2...one-v0.2.3) (2022-04-27)
+
+
+### Bug Fixes
+
+* remove broken add function ([8479b00](https://github.com/martij19/go/commit/8479b0093b8ee8d6cfd86dfd1a438718c83b6fe0))
+
 ### [0.2.2](https://github.com/martij19/go/compare/one-v0.2.1...one-v0.2.2) (2022-04-27)
 
 
