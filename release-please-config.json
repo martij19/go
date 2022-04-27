@@ -2,7 +2,7 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
   "draft": false,
-  "release-type": "go",
+  "release-type": "go-yoshi",
   "prerelease": false,
   "versioning": "default",
   "tag-seperator": "/",
