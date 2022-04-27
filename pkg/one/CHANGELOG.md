@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.4](https://github.com/martij19/go/compare/one/v0.2.3...one-v0.2.4) (2022-04-27)
+
+
+### Features
+
+* add the add functionality ([093852c](https://github.com/martij19/go/commit/093852c292ce8a02c05f1211d3ea05481d07fce2))
+
 ### [0.2.3](https://github.com/martij19/go/compare/one-v0.2.2...one-v0.2.3) (2022-04-27)
 
 
