@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0](https://github.com/martij19/go/compare/three/v0.2.2...three/v0.3.0) (2022-04-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove add"
+
+### Bug Fixes
+
+* remove add" ([500de77](https://github.com/martij19/go/commit/500de772655ccb6385de45892860bf7a30821055))
+
 ### [0.2.2](https://github.com/martij19/go/compare/three-v0.2.1...three/v0.2.2) (2022-04-27)
 
 
