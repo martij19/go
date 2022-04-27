@@ -7,9 +7,13 @@ jobs:
   release-please:
     runs-on: [ ubuntu-latest ]
     steps:
-      - uses: martij19/release-please-action@v3.2.1
+      - id: release-please
+        uses: martij19/release-please-action@v3.2.1
         with:
           command: manifest
           default-branch: main
           token: ${{secrets.GITHUB_TOKEN}}
           monorepo-tags: true
+      - run: |
+          echo ${{ steps.release-please.outputs.release_created }}
+          echo ${{ steps.release-please.outputs.tag_name }}
