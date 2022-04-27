@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.2](https://github.com/martij19/go/compare/three-v0.2.1...three/v0.2.2) (2022-04-27)
+
+
+### Features
+
+* add the add functionality ([5f91585](https://github.com/martij19/go/commit/5f9158546e571263226f5a6975418b21053a1721))
+
 ### [0.2.1](https://github.com/martij19/go/compare/three-v0.2.0...three-v0.2.1) (2022-04-27)
 
 
