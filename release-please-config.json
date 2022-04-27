@@ -7,6 +7,10 @@
   "versioning": "default",
   "tag-separator": "/",
   "packages": {
+    ".": {
+      "release-type": "simple",
+      "package-name": ""
+    },
     "pkg/one": {
       "changelog-path": "CHANGELOG.md",
       "package-name": "one"
