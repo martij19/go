@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/martij19/go/compare/v1.1.0...v1.2.0) (2022-04-28)
+
+
+### Features
+
+* introduce simple package ([8c08583](https://github.com/martij19/go/commit/8c08583350389bf21470d45d43f8138213c662f0))
+
 ## [1.1.0](https://github.com/martij19/go/compare/v1.0.0...v1.1.0) (2022-04-28)
 
 
