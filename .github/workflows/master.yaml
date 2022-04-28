@@ -1,0 +1,20 @@
+name: "Build, Publish & Deploy"
+on:
+  push:
+    branches:
+      - master
+  release:
+    types: 
+      - published
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  print-ref:
+    runs-on: [ubuntu-latest]
+    steps:
+      - run: echo ${{ github.ref }}
+
