@@ -10,3 +10,7 @@ func Test() {
 func A() string {
 	return "A"
 }
+
+func B() string {
+	return "B"
+}
