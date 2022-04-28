@@ -10,7 +10,6 @@ jobs:
       - id: release
         uses: martij19/release-please-action@v3.2.1
         with:
-          command: github-release
-          release-type: go
+          command: manifest
           default-branch: main
           token: ${{secrets.GITHUB_TOKEN}}
