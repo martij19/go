@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/martij19/go/compare/v1.0.0...v1.1.0) (2022-04-28)
+
+
+### Features
+
+* add a new workflow ([ef91e28](https://github.com/martij19/go/commit/ef91e2844f191123a398be60c287e396c21a6a0d))
+
 ## 1.0.0 (2022-04-27)
 
 
