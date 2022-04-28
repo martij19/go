@@ -6,3 +6,7 @@ import "fmt"
 func Test() {
 	fmt.Println("two")
 }
+
+func A() string {
+	return "A"
+}
