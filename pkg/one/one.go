@@ -8,3 +8,10 @@ func Test() {
 }
 
 // Make a change
+func A() string {
+	return "A"
+}
+
+func B() string {
+	return "B"
+}
