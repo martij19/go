@@ -22,6 +22,10 @@
     "pkg/three": {
       "changelog-path": "CHANGELOG.md",
       "package-name": "three"
+    },
+    "simple": {
+      "release-type": "simple",
+      "changelog-path": "CHANGELOG.md"
     }
   }
 }
