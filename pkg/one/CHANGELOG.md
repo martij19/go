@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.2](https://github.com/martij19/go/compare/one/v0.4.1...one/v0.4.2) (2022-05-05)
+
+
+### Features
+
+* **one:** new C function ([c4c95cd](https://github.com/martij19/go/commit/c4c95cd9cdbc8c7be4c4d514f9b4279f2e8fc1be))
+
 ### [0.4.1](https://github.com/martij19/go/compare/one/v0.4.0...one/v0.4.1) (2022-04-28)
 
 
