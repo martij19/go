@@ -1,5 +1,14 @@
 # Changelog
 
+### [0.4.1](https://github.com/martij19/go/compare/two/v0.4.0...two/v0.4.1) (2022-05-05)
+
+
+### Features
+
+* **two:** Add new A function ([5062e1b](https://github.com/martij19/go/commit/5062e1b7b4598790bbb438c557b8da9f4be55d05))
+* **two:** Add new B function ([7a41df7](https://github.com/martij19/go/commit/7a41df7a90aab97624d0a0f526e9ca7c33095c34))
+* **two:** Add new C function ([aa7146b](https://github.com/martij19/go/commit/aa7146b6d271d6629b29048df5f0e242d11c5b84))
+
 ## [0.4.0](https://github.com/martij19/go/compare/two-v0.3.0...two/v0.4.0) (2022-04-27)
 
 
