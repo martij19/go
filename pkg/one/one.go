@@ -15,3 +15,7 @@ func A() string {
 func B() string {
 	return "B"
 }
+
+func C() string {
+	return "C"
+}
